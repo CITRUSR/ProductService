@@ -1,0 +1,14 @@
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Domain\bin\Debug\net7.0\ProductService.Domain.deps.json
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Domain\bin\Debug\net7.0\ProductService.Domain.runtimeconfig.json
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Domain\bin\Debug\net7.0\ProductService.Domain.dll
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Domain\bin\Debug\net7.0\ProductService.Domain.pdb
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Domain\obj\Debug\net7.0\ProductService.Domain.csproj.AssemblyReference.cache
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Domain\obj\Debug\net7.0\ProductService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Domain\obj\Debug\net7.0\ProductService.Domain.AssemblyInfoInputs.cache
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Domain\obj\Debug\net7.0\ProductService.Domain.AssemblyInfo.cs
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Domain\obj\Debug\net7.0\ProductService.Domain.csproj.CoreCompileInputs.cache
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Domain\obj\Debug\net7.0\ProductService.Domain.dll
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Domain\obj\Debug\net7.0\refint\ProductService.Domain.dll
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Domain\obj\Debug\net7.0\ProductService.Domain.pdb
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Domain\obj\Debug\net7.0\ProductService.Domain.genruntimeconfig.cache
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Domain\obj\Debug\net7.0\ref\ProductService.Domain.dll

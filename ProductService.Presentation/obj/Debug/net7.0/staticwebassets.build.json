@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xp3jCRVTmZOu96vmdsXi+xiOGM0ZWTrmLTX9a2dUVNM=",
+  "Source": "ProductService.Presentation",
+  "BasePath": "_content/ProductService.Presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
