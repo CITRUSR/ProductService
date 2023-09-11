@@ -18,10 +18,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Product\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\ProductService.Domain\ProductService.Domain.csproj" />
     </ItemGroup>
 
