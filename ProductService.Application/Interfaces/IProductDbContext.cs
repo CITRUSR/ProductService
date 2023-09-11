@@ -5,6 +5,6 @@ namespace ProductService.Application.Interfaces;
 
 public interface IProductDbContext
 {
-    public DbSet<Product> Products { get; set; }
+    public DbSet<Domain.Product> Products { get; set; }
     public Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 }
