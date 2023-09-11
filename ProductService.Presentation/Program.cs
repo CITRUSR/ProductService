@@ -1,5 +1,6 @@
 using ProductService.Application;
 using ProductService.Persistance;
+using ProductService.Presentation.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ErrorMiddleware>();
 
 app.UseHttpsRedirection();
 
