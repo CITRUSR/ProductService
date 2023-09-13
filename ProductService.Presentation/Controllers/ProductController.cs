@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using ProductService.Application.Product.Commands.Delete;
 using ProductService.Application.Product.Queries.Get;
 using ProductService.Application.Product.Queries.GetAll;
 using ProductService.Presentation.Models;
@@ -7,7 +8,7 @@ using ProductService.Presentation.Models;
 namespace ProductService.Presentation.Controllers;
 
 [ApiController]
-[Route("[controller]/[action]")]
+[Route("api/[controller]/[action]")]
 public class ProductController : ControllerBase
 {
     private readonly IMediator _mediator;
@@ -37,5 +38,13 @@ public class ProductController : ControllerBase
     public async Task<IActionResult> CreateProduct(CreateProductDTO model)
     {
         return Ok();
+    }
+
+    [HttpDelete]
+    public async Task<IActionResult> DeleteProduct(Guid id)
+    {
+        var command = new DeleteCommand { Id = id };
+        await _mediator.Send(command);
+        return NoContent();
     }
 }
