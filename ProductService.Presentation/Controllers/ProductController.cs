@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using ProductService.Application.Product.Commands.Delete;
+using ProductService.Application.Product.Commands.Update;
 using ProductService.Application.Product.Queries.Get;
 using ProductService.Application.Product.Queries.GetAll;
 using ProductService.Presentation.Models;
@@ -46,5 +47,14 @@ public class ProductController : ControllerBase
         var command = new DeleteCommand { Id = id };
         await _mediator.Send(command);
         return NoContent();
+    }
+
+    [HttpPut]
+    public async Task<IActionResult> UpdateProduct(Guid id)
+    {
+        var command = new UpdateCommand { Id = id };
+        var product = await _mediator.Send(command);
+
+        return Ok(product);
     }
 }
