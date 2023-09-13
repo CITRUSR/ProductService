@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using ProductService.Application.Product.Commands.Create;
 using ProductService.Application.Product.Commands.Delete;
 using ProductService.Application.Product.Commands.Update;
 using ProductService.Application.Product.Queries.Get;
@@ -38,7 +39,17 @@ public class ProductController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> CreateProduct(CreateProductDTO model)
     {
-        return Ok();
+        var command = new CreateCommand
+        {
+            Id = model.Id,
+            Name = model.Name,
+            Description = model.Description,
+            Category = model.Category,
+        };
+
+        var product = await _mediator.Send(command);
+        
+        return Ok(product);
     }
 
     [HttpDelete]
