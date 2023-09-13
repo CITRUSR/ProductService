@@ -61,9 +61,15 @@ public class ProductController : ControllerBase
     }
 
     [HttpPut]
-    public async Task<IActionResult> UpdateProduct(Guid id)
+    public async Task<IActionResult> UpdateProduct(UpdateProductDTO model)
     {
-        var command = new UpdateCommand { Id = id };
+        var command = new UpdateCommand
+        {
+            Id = model.Id,
+            Name = model.Name,
+            Description = model.Description,
+            Category = model.Category,
+        };
         var product = await _mediator.Send(command);
 
         return Ok(product);
