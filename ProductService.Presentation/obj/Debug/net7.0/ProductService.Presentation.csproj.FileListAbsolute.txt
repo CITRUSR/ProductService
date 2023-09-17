@@ -84,3 +84,6 @@ C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Pr
 C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Presentation\obj\Debug\net7.0\ProductService.Presentation.pdb
 C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Presentation\obj\Debug\net7.0\ProductService.Presentation.genruntimeconfig.cache
 C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Presentation\obj\Debug\net7.0\ref\ProductService.Presentation.dll
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Presentation\bin\Debug\net7.0\ProductService.Presentation.xml
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Presentation\obj\Debug\net7.0\ProductService.Presentation.xml
+C:\DocumentProg\Projects\Web\Store\StoreBackend\ProductService\ProductService.Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
